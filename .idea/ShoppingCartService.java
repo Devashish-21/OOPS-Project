@@ -1,14 +1,14 @@
-package com.halim.web.service;
+package com.fz.web.service;
 
 import java.util.Date;
 import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.halim.dao.CartItemRepository;
-import com.halim.dao.ShoppingCartRepository;
-import com.halim.model.CartItem;
-import com.halim.model.Product;
-import com.halim.model.ShoppingCart;
+import com.fz.dao.CartItemRepository;
+import com.fz.dao.ShoppingCartRepository;
+import com.fz.model.CartItem;
+import com.fz.model.Product;
+import com.fz.model.ShoppingCart;
 
 @Service
 public class ShoppingCartService {
